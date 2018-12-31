@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+<div class="logo">
+        <img src="../assets/dDriven.jpg" style="position: absolute;
+                    top: 10px;
+                    left: 93%;
+                    font-size: 18px;width: 80px;height: 30px;"
+            }">
+    </div>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        .footer {
+            position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    background-color:#1AC4BB;
+                    color: black;
+                    text-align: center;
+                    height: 5%;
+        
+                }
+        
+        
+        
+        .navbar {
+            overflow: hidden;
+            background-color: #1AC4BB; 
+        }
+        
+        .navbar a {
+            float: left;
+            font-size: 13px;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a.active {
+            background-color: #057B79;
+            color: #fff;
+        }
+        .subnav {
+            float: left;
+            overflow: hidden;
+        }
+        
+        .subnav .subnavbtn {
+            font-size: 13px;    
+            border: none;
+            outline: none;
+            color: black;
+            padding: 14px 16px;
+            background-color: #1AC4BB;
+            font-family: inherit;
+            margin: 0;
+        }
+        
+        .navbar a:hover, .subnav:hover .subnavbtn {
+            background-color: #057B79;
+            color:white;
+        }
+        
+        .subnav-content {
+            display: none;
+            position: absolute;
+            left: 0;
+            background-color: #057B79;
+            width: 100%;
+            z-index: 1;
+        }
+        
+        .subnav-content a {
+            float: left;
+            color: black;
+            text-decoration: none;
+        }
+        
+        .subnav-content a:hover {
+            background-color:#057B79;
+            color: white;
+        }
+        
+        .subnav:hover .subnav-content {
+            display: block;
+        }
+        </style>
+</head>
+<body>
+
+<div class="navbar">
+  <!-- <a href="#home">Financial Overview</a> -->
+
+  <div class="subnav">
+        <button class="subnavbtn">Financial Overview <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="cashmanagement.html">Cash Management</a>
+          <a href="expenses.html">Expenses</a>
+          <a href="otherexpenses.html">Other Expenses</a>
+          <a href="pnltrend.html">P&L Trend</a>
+          <a href="pnlexideamara.html">P&L Comparison</a>
+        </div>
+      </div>
+
+
+
+
+      <a href="industry.html">Industry Overview</a>
+      <a class="active" href="plant.html">Plant Overview</a> 
+  <a href="segment.html">Segment Analysis</a>
+  <a href="supply.html">Supply Chain Overview</a>
+</div>
+
+
+<img src="../assets/plant.jpg" style="position: absolute;
+                    width: 80%;
+                    height: 80%;
+                    margin-top: 3%;
+                    margin-left: 10%;
+                    "
+            }">
+</body>
+<div class="footer">
+    <p style="font-size: 10px;"><strong>© dDriven</strong></p>
+</div>
+</html>
